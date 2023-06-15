@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.blog-item-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  width: 500px;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+}
+.blog-item-link {
+  cursor: pointer;
+  box-shadow: inset;
+  text-decoration: none;
+}
+.image-url {
+  height: 160px;
+  width: 220px;
+  margin-right: 15px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+}
+.p-1 {
+  color: grey;
+  font-size: 13px;
+  font-weight: 400;
+}
+.p-2 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.user-name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.avatar-url {
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
